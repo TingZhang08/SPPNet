@@ -1,0 +1,12 @@
+net: "F:/YongD/caffe-windows-master/models/caffe-SPPNet-master/examples/imagenet/train_val_180.prototxt"
+base_lr: 0.01
+lr_policy: "step"
+gamma: 0.1
+stepsize: 100000
+display: 10000
+max_iter: 450000
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 450000
+snapshot_prefix: "F:/YongD/caffe-windows-master/models/caffe-SPPNet-master/examples/imagenet/caffe_train"
+solver_mode: GPU
